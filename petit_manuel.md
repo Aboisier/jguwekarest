@@ -2,7 +2,8 @@
 
 ## Dépendances
 
-1. Installer [docker](https://www.docker.com/) et [docker-compose](https://docs.docker.com/compose/).
+1. Installez [docker](https://www.docker.com/) et [docker-compose](https://docs.docker.com/compose/).
+2. Intallez `Maven`
 2. Clonez ce répertoire: `git clone git@github.com:Aboisier/jguwekarest.git`
 
 
