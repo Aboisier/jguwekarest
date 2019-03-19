@@ -27,7 +27,7 @@ docker pull mongo; docker run --name mongodb -d mongo
 ```
 2. Démarrez l'image:  
 ```sh
-docker run -p 8080:8080 --link mongodb:mongodb <votre_nom_dutilisateur_docker_hub>/jguweka:OAS3
+docker run -p 8080:8080 -p 8849:8849 --link mongodb:mongodb <votre_nom_dutilisateur_docker_hub>/jguweka:OAS3
 ```
 
 ## Pour démarrer l'agent JProfiler
