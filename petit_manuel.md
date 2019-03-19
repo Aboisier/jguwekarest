@@ -41,8 +41,7 @@ docker exec -it [nom_de_votre_conteneur] bash
 2. Naviguez jusqu'au dossier où se trouve JProfiler et exécutez `jpenable`
 
 ```sh
-cd /usr/local/jprofiler9/
-bin/jpenable
+/usr/local/jprofiler9/bin/jpenable -g -p 8849
 ```
 
 3. `jpenable` vous demandera d'entrer des informations. Entres `1` puis `8849`.
