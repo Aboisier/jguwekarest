@@ -38,10 +38,8 @@ docker run -p 8080:8080 -p 8849:8849 --link mongodb:mongodb <votre_nom_dutilisat
 docker exec -it [nom_de_votre_conteneur] bash
 ```
 
-2. Naviguez jusqu'au dossier où se trouve JProfiler et exécutez `jpenable`
+2. Exécutez la commande suivante
 
 ```sh
 /usr/local/jprofiler9/bin/jpenable -g -p 8849
 ```
-
-3. `jpenable` vous demandera d'entrer des informations. Entres `1` puis `8849`.
