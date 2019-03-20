@@ -2,7 +2,8 @@
 
 ## Dépendances
 
-1. Installer [docker](https://www.docker.com/) et [docker-compose](https://docs.docker.com/compose/).
+1. Installez [docker](https://www.docker.com/) et [docker-compose](https://docs.docker.com/compose/).
+2. Intallez `Maven`
 2. Clonez ce répertoire: `git clone git@github.com:Aboisier/jguwekarest.git`
 
 
@@ -26,7 +27,7 @@ docker pull mongo; docker run --name mongodb -d mongo
 ```
 2. Démarrez l'image:  
 ```sh
-docker run -p 8080:8080 --link mongodb:mongodb <votre_nom_dutilisateur_docker_hub>/jguweka:OAS3
+docker run -p 8080:8080 -p 8849:8849 --link mongodb:mongodb <votre_nom_dutilisateur_docker_hub>/jguweka:OAS3
 ```
 
 ## Pour démarrer l'agent JProfiler
@@ -37,11 +38,8 @@ docker run -p 8080:8080 --link mongodb:mongodb <votre_nom_dutilisateur_docker_hu
 docker exec -it [nom_de_votre_conteneur] bash
 ```
 
-2. Naviguez jusqu'au dossier où se trouve JProfiler et exécutez `jpenable`
+2. Exécutez la commande suivante
 
 ```sh
-cd /usr/local/jprofiler9/
-bin/jpenable
+/usr/local/jprofiler9/bin/jpenable -g -p 8849
 ```
-
-3. `jpenable` vous demandera d'entrer des informations. Entres `1` puis `8849`.
