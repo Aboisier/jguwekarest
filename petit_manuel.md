@@ -6,7 +6,13 @@
 2. Intallez `Maven`
 2. Clonez ce répertoire: `git clone git@github.com:Aboisier/jguwekarest.git`
 
+# Exécuter avec docker-compose
+1. Depuis le dossier contenant le _repository_, exécutez `docker-compose up`
 
+## Pour scaler
+1. Exécutez `docker-compose up scale jguweka=n`, `n` étant le nombre d'instances que vous désirez
+
+# Builder et exécuter le tout manuellement
 ## _Builder_ l'image docker
 1. Nettoyer le package en exécutant
 
