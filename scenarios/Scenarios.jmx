@@ -28,8 +28,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="false">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\small_dataset.arff" elementType="HTTPFileArg">
-                <stringProp name="File.path">C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\small_dataset.arff</stringProp>
+              <elementProp name="${RELATIVE_PATH}small_dataset.arff" elementType="HTTPFileArg">
+                <stringProp name="File.path">${RELATIVE_PATH}small_dataset.arff</stringProp>
                 <stringProp name="File.paramname">file</stringProp>
                 <stringProp name="File.mimetype">multipart/form-data</stringProp>
               </elementProp>
@@ -150,8 +150,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\small_dataset.arff" elementType="HTTPFileArg">
-                <stringProp name="File.path">C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\small_dataset.arff</stringProp>
+              <elementProp name="${RELATIVE_PATH}small_dataset.arff" elementType="HTTPFileArg">
+                <stringProp name="File.path">${RELATIVE_PATH}small_dataset.arff</stringProp>
                 <stringProp name="File.paramname">file</stringProp>
                 <stringProp name="File.mimetype">multipart/form-data</stringProp>
               </elementProp>
@@ -272,8 +272,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\soybean-medium.arff" elementType="HTTPFileArg">
-                <stringProp name="File.path">C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\soybean-medium.arff</stringProp>
+              <elementProp name="${RELATIVE_PATH}soybean-medium.arff" elementType="HTTPFileArg">
+                <stringProp name="File.path">${RELATIVE_PATH}soybean-medium.arff</stringProp>
                 <stringProp name="File.paramname">file</stringProp>
                 <stringProp name="File.mimetype">multipart/form-data</stringProp>
               </elementProp>
@@ -394,8 +394,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\small_dataset.arff" elementType="HTTPFileArg">
-                <stringProp name="File.path">C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\small_dataset.arff</stringProp>
+              <elementProp name="${RELATIVE_PATH}small_dataset.arff" elementType="HTTPFileArg">
+                <stringProp name="File.path">${RELATIVE_PATH}small_dataset.arff</stringProp>
                 <stringProp name="File.paramname">file</stringProp>
                 <stringProp name="File.mimetype">multipart/form-data</stringProp>
               </elementProp>
@@ -520,8 +520,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\soybean-large.arff" elementType="HTTPFileArg">
-                <stringProp name="File.path">C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\soybean-large.arff</stringProp>
+              <elementProp name="${RELATIVE_PATH}soybean-large.arff" elementType="HTTPFileArg">
+                <stringProp name="File.path">${RELATIVE_PATH}soybean-large.arff</stringProp>
                 <stringProp name="File.paramname">file</stringProp>
                 <stringProp name="File.mimetype">multipart/form-data</stringProp>
               </elementProp>
@@ -642,8 +642,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\soybean-large.arff" elementType="HTTPFileArg">
-                <stringProp name="File.path">C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\soybean-large.arff</stringProp>
+              <elementProp name="${RELATIVE_PATH}soybean-large.arff" elementType="HTTPFileArg">
+                <stringProp name="File.path">${RELATIVE_PATH}soybean-large.arff</stringProp>
                 <stringProp name="File.paramname">file</stringProp>
                 <stringProp name="File.mimetype">multipart/form-data</stringProp>
               </elementProp>
@@ -764,8 +764,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\soybean-extra-large.arff" elementType="HTTPFileArg">
-                <stringProp name="File.path">C:\Users\remi_\Desktop\Remi\Polymtl\PolyMtl\LOG8371\TP2\soybean-extra-large.arff</stringProp>
+              <elementProp name="${RELATIVE_PATH}soybean-extra-large.arff" elementType="HTTPFileArg">
+                <stringProp name="File.path">${RELATIVE_PATH}soybean-extra-large.arff</stringProp>
                 <stringProp name="File.paramname">file</stringProp>
                 <stringProp name="File.mimetype">multipart/form-data</stringProp>
               </elementProp>
@@ -980,6 +980,17 @@
         </objProp>
         <stringProp name="filename"></stringProp>
       </ResultCollector>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="RELATIVE_PATH" elementType="Argument">
+            <stringProp name="Argument.name">RELATIVE_PATH</stringProp>
+            <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer; FileServer.getFileServer().getBaseDir();)}${__BeanShell(File.separator,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Permet d&apos;utiliser des paths de fichier relatifs.</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
       <hashTree/>
     </hashTree>
   </hashTree>
