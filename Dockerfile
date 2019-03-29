@@ -18,6 +18,8 @@ RUN openssl s_client -showcerts -connect openam.in-silico.ch:443 </dev/null 2>/d
 RUN keytool -keystore /etc/ssl/certs/java/cacerts -keypass changeit -storepass changeit -noprompt -importcert -alias openam.in-silico.ch -file /usr/local/tomcat/in-silicoch.crt
 
 # Expose the J Profiler agent
+# Make sure to use the same JProfiler version as the one installed on your local machine by using the correct URL.
+# (http://download-keycdn.ej-technologies.com/jprofiler/jprofiler_linux_{major_version}_{minor_version}.tar.gz)
 RUN wget http://download-keycdn.ej-technologies.com/jprofiler/jprofiler_linux_9_2.tar.gz -P /tmp/ &&\
  tar -xzf /tmp/jprofiler_linux_9_2.tar.gz -C /usr/local &&\
  rm /tmp/jprofiler_linux_9_2.tar.gz
