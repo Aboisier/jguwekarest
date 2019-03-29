@@ -1,0 +1,91 @@
+@RELATION hrv-ithlete-measurements 
+
+@ATTRIBUTE hrv NUMERIC
+@ATTRIBUTE hr NUMERIC
+@ATTRIBUTE dayID NUMERIC
+@ATTRIBUTE sequenceID { 1of4, 2of4, 3of4, 4of4}
+@ATTRIBUTE patternSleep { Irregular, Regular}
+@ATTRIBUTE hoursAwake NUMERIC
+@ATTRIBUTE healthGrade { 0, 1}
+
+@DATA
+70.4,75.2,1,1of4,Irregular,0,1
+65.0,84.1,1,2of4,Irregular,3,0
+74.4,73.8,1,3of4,Irregular,4,1
+75.1,72.7,1,4of4,Irregular,15,1
+65.2,91.2,2,1of4,Irregular,0,0
+52.9,98.9,2,2of4,Irregular,4,0
+52.1,91.2,2,3of4,Irregular,7,0
+66.7,87.7,2,4of4,Irregular,10,0
+67.3,81.0,3,1of4,Irregular,0,0
+72.1,88.0,3,2of4,Irregular,3,1
+69.1,87.0,3,3of4,Irregular,6,0
+64.5,79.4,3,4of4,Irregular,12,0
+60.9,89.6,4,1of4,Irregular,0,0
+43.1,105.0,4,2of4,Irregular,4,0
+55.5,101.3,4,3of4,Irregular,7,0
+59.6,90.2,4,4of4,Irregular,12,0
+70.3,85.1,5,1of4,Irregular,0,1
+67.4,87.8,5,2of4,Irregular,4,0
+76.9,70.8,5,3of4,Irregular,5,1
+69.0,77.6,5,4of4,Irregular,14,0
+64.5,79.8,6,1of4,Irregular,0,0
+79.3,67.9,6,2of4,Irregular,3,1
+70.4,83.2,6,3of4,Irregular,5,1
+74.4,73.3,6,4of4,Irregular,9,1
+51.0,97.9,7,1of4,Irregular,0,0
+81.4,63.5,7,2of4,Irregular,2,1
+78.9,71.0,7,3of4,Irregular,4,1
+63.7,73.4,7,4of4,Irregular,8,0
+64.4,87.7,8,1of4,Irregular,0,0
+75.8,70.6,8,2of4,Irregular,2,1
+60.3,84.8,8,3of4,Irregular,6,0
+76.8,65.3,8,4of4,Irregular,9,1
+68.6,84.3,9,1of4,Irregular,0,0
+68.3,82.4,9,2of4,Irregular,4,0
+78.6,70.8,9,3of4,Irregular,7,1
+59.9,89.1,9,4of4,Irregular,10,0
+70.2,79.8,10,1of4,Irregular,0,1
+77.2,73.3,10,2of4,Irregular,4,1
+75.8,70.2,10,3of4,Irregular,7,1
+67.4,79.7,10,4of4,Irregular,10,0
+66.3,86.0,11,1of4,Regular,0,0
+59.7,99.8,11,2of4,Regular,4,0
+69.5,85.8,11,3of4,Regular,6,0
+54.2,88.8,11,4of4,Regular,10,0
+67.1,79.2,12,1of4,Regular,0,0
+70.6,78.7,12,2of4,Regular,5,1
+73.1,76.3,12,3of4,Regular,7,1
+69.5,77.3,12,4of4,Regular,10,0
+79.1,69.7,13,1of4,Regular,0,1
+73.4,76.5,13,2of4,Regular,4,1
+84.1,61.7,13,3of4,Regular,7,1
+57.0,89.5,13,4of4,Regular,14,0
+70.6,77.3,14,1of4,Regular,0,1
+71.9,75.2,14,2of4,Regular,3,1
+68.5,83.2,14,3of4,Regular,7,0
+56.7,94.1,14,4of4,Regular,14,0
+56.2,91.1,15,1of4,Regular,0,0
+77.5,73.8,15,2of4,Regular,3,1
+78.2,71.9,15,3of4,Regular,7,1
+70.1,81.8,15,4of4,Regular,11,1
+67.1,82.8,16,1of4,Regular,0,0
+72.8,74.6,16,2of4,Regular,6,1
+83.6,58.9,16,3of4,Regular,10,1
+76.5,71.3,16,4of4,Regular,14,1
+65.9,85.8,17,1of4,Regular,0,0
+70.8,77.7,17,2of4,Regular,5,1
+70.9,76.9,17,3of4,Regular,11,1
+66.6,79.5,17,4of4,Regular,14,0
+70.8,71.7,18,1of4,Regular,0,1
+67.2,79.9,18,2of4,Regular,3,0
+48.0,105.0,18,3of4,Regular,9,0
+57.8,95.7,18,4of4,Regular,13,0
+74.1,71.8,19,1of4,Regular,0,1
+82.1,66.9,19,2of4,Regular,4,1
+77.4,73.1,19,3of4,Regular,6,1
+62.1,87.5,19,4of4,Regular,18,0
+66.4,86.0,20,1of4,Regular,0,0
+59.2,92.8,20,2of4,Regular,3,0
+57.8,98.8,20,3of4,Regular,9,0
+47.5,101.9,20,4of4,Regular,12,0
