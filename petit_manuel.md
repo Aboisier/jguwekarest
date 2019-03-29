@@ -1,5 +1,11 @@
 # Petit manuel
 
+## Dossiers
+
+scenarios: Le dossiers "scenarios" contient les datasets utilisés dans les différents scénarios ainsi que le fichier JMeter permettant de rouler ces scénarios.
+
+results: Le dossier "results" contient les résultats d'exécution des différents scénarios.
+
 ## Dépendances
 
 1. Installez [docker](https://www.docker.com/) et [docker-compose](https://docs.docker.com/compose/).
