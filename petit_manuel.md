@@ -49,3 +49,17 @@ docker exec -it [nom_de_votre_conteneur] bash
 ```sh
 /usr/local/jprofiler9/bin/jpenable -g -p 8849
 ```
+
+## Exécuter les scénarios
+
+Les différents scénarios ont été créés à l'aide de JMeter et sont disponibles dans le fichier Scenarios.jmx. 
+
+1. Lancez JMeter.
+
+2. Ouvrez le fichier Scenarios.jmx (dans le dossier "scenarios").
+
+3. Activez le scénario désiré en cliquant sur "Enable" dans le menu de contexte du scenario (clic droit sur le scenario voulu).
+
+4. Assurez-vous que les autres scénarios sont désactivés en cliquant sur "Disable" dans leurs menus de contexte respectifs.
+
+5. Lancez le scénario en cliquant sur le bouton "Start" (bouton Play vert).
