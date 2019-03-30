@@ -13,7 +13,9 @@ results: Le dossier "results" contient les résultats d'exécution des différen
 2. Clonez ce répertoire: `git clone git@github.com:Aboisier/jguwekarest.git`
 
 # Exécuter avec docker-compose
-1. Depuis le dossier contenant le _repository_, exécutez `docker-compose up`
+1. Suivez les étapes pour [builder et exécuter le tout manuellement](#builder-et-executer-le-tout-manuellement) avant tout.
+2. Changez le nom d'utilisateur (`aboisier`) par votre nom d'utilisateur _docker hub_ dans le fichier `docker-compose.yml`.
+2. Depuis le dossier contenant le _repository_, exécutez `docker-compose up`
 
 ## Pour scaler
 1. Exécutez `docker-compose up scale jguweka=n`, `n` étant le nombre d'instances que vous désirez
